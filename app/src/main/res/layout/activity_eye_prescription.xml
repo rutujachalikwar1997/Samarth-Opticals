@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    tools:context="com.example.chalikwar.samarthopticals.eye_prescription">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Eye Prescription"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/eyep"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="Find/Search"
+        android:inputType="text"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/name123"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:textColorHint="@android:color/black" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_remove_red_eye_black_24dp"
+        android:text="Left Side"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/sph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="SPH"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/cyl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="CYL"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/axis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="AXIS"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColorHint="@android:color/black" />
+
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_remove_red_eye_black_24dp"
+        android:text="Right Side"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/sph1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="SPH"
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/cyl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="CYL"
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/axis1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="AXIS"
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColorHint="@android:color/black" />
+
+
+    </TableRow>
+    <Button
+        android:id="@+id/sub5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/sub6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Find"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+
+</TableLayout>
+
+

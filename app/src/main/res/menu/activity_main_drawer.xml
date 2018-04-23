@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cust"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Customer Details" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Order Details" />
+        <item
+            android:id="@+id/nav_eye"
+            android:icon="@drawable/ic_remove_red_eye_black_24dp"
+            android:title="Eye Priscription" />
+
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Bill Details" />
+
+
+
+    </group>
+
+
+</menu>
